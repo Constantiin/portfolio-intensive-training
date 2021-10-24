@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
 
     <link rel="stylesheet" href="style/index.css">
 </head>
+
 <body class="page">
     <header class="page__header header">
         <div class="header__container container">
-              <img  class="header__logo" src="img/logo.svg" alt="Логотип Ивана Ивановича создателя сайтов">  
-              <address class="header__contacts contacts">
-                  <ul class="contacts__list">
+            <img class="header__logo" src="img/logo.svg" alt="Логотип Ивана Ивановича создателя сайтов">
+            <address class="header__contacts contacts">
+                <ul class="contacts__list">
                     <li class="contacts__item">
                         <p class="contacts__head">Телефон</p>
                         <a href="tel:+79999999999" class="contacts__link">+7 (999) 999 99-99</a>
@@ -26,35 +28,44 @@
                         <p class="contacts__head contacts__head_social">Соц. сети</p>
                         <ul class="contacts__social-list">
                             <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_whatsup" aria-label="whatsup"></a>
+                                <a href="#" class="contacts__social-link contacts__social-link_whatsup"
+                                    aria-label="whatsup"></a>
                             </li>
                             <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_instagram"  aria-label="instagram"></a>
+                                <a href="#" class="contacts__social-link contacts__social-link_instagram"
+                                    aria-label="instagram"></a>
                             </li>
                             <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_facebook"  aria-label="facebook"></a>
+                                <a href="#" class="contacts__social-link contacts__social-link_facebook"
+                                    aria-label="facebook"></a>
                             </li>
                             <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_telegram"  aria-label="telegram"></a>
+                                <a href="#" class="contacts__social-link contacts__social-link_telegram"
+                                    aria-label="telegram"></a>
                             </li>
                         </ul>
                     </li>
-                  </ul>
-              </address>
-              <button class="header__contacts-menu"></button>
+                </ul>
+            </address>
+            <button class="header__contacts-menu"></button>
         </div>
     </header>
 
     <main>
         <section class="about">
             <div class="about__container container">
-                <img class="about__photo" src="img/photo.png" alt="Фото Ивана Ивановича создателя сайтов">
+                <picture class="about__photo">
+                    <source srcset="img/photo.avif" type="image/avif">
+                    <source srcset="img/photo.webp" type="image/webp">
+                    <img src="img/photo.png" alt="Фото Ивана Ивановича создателя сайтов">
+                </picture>
                 <div class="about__content">
                     <hgroup class="about__group-title">
                         <h1 class="about__title">Иван Иванович</h1>
                         <h2 class="about__subtitle">Разработчик сайтов</h2>
                     </hgroup>
-                    <p class="about__description">Меня зовут Иван Иванович, я разработчик сайтов с&nbsp;опытом 1&nbsp;год</p>
+                    <p class="about__description">Меня зовут Иван Иванович, я разработчик сайтов с&nbsp;опытом
+                        1&nbsp;год</p>
                     <button class="about__order-btn">Заказать</button>
                 </div>
             </div>
@@ -133,4 +144,5 @@
         </section>
     </main>
 </body>
+
 </html>
