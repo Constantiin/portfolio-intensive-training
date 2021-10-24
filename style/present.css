@@ -1,5 +1,5 @@
 .about__photo {
-    width: 30%;
+    width: 100px;
     object-fit: cover;
     margin: 0 auto 20px;
 }
@@ -54,7 +54,7 @@
     }
 
     .about__photo {
-        width: 30%;
+        width: 25%;
         margin-right: 15px;
         margin-bottom: 0;
     }
