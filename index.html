@@ -8,6 +8,8 @@
     <title>Иван Иванович - Создание сайтов</title>
 
     <link rel="stylesheet" href="style/index.css">
+    <script defer src="js/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
 
 <body class="page">
@@ -86,9 +88,9 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-                <div class="portfolio__slider">
-                    <ul class="portfolio__list">
-                        <li class="portfolio__item">
+                <div class="portfolio__slider swiper">
+                    <ul class="portfolio__list swiper-wrapper">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/cinema.jpg" alt="">
                                 <p class="card__data">
@@ -98,9 +100,9 @@
                                 <h3 class="card__title">Многостраничный сайт</h3>
                             </article>
                         </li>
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="#" alt="">
+                                <img class="card__picture" src="img/iphone.jpg" alt="">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Full Apple</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -108,9 +110,9 @@
                                 <h3 class="card__title">Landing-page</h3>
                             </article>
                         </li>
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="#" alt="">
+                                <img class="card__picture" src="img/dom.jpg" alt="">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Game Over</span>
                                     <time class="card__date" datetime="2019">год: 2019</time>
@@ -118,9 +120,9 @@
                                 <h3 class="card__title">Landing-page</h3>
                             </article>
                         </li>
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="#" alt="">
+                                <img class="card__picture" src="img/go.jpg" alt="">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: Friendly House</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -128,9 +130,9 @@
                                 <h3 class="card__title">Landing-page</h3>
                             </article>
                         </li>
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="#" alt="">
+                                <img class="card__picture" src="img/friendly_house.jpg" alt="">
                                 <p class="card__data">
                                     <span class="card__client">Клиент: ItalGroup boutique</span>
                                     <time class="card__date" datetime="2020">год: 2020</time>
@@ -139,6 +141,9 @@
                             </article>
                         </li>
                     </ul>
+
+                    <button class="portfolio__arrow portfolio__arrow_left"></button>
+                    <button class="portfolio__arrow portfolio__arrow_right"></button>
                 </div>
             </div>
         </section>
