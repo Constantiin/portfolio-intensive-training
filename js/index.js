@@ -20,3 +20,7 @@ new Swiper(".swiper", {
         }
     }
 })
+
+$(".header__contacts-menu").click(function() {
+    $(".header__contacts").slideToggle();
+})
