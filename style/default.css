@@ -62,6 +62,7 @@ section {
 }
 
 .about__photo {
+    display: block;
     max-width: 445px;
     max-height: 670px;
 }
@@ -76,6 +77,7 @@ section {
     overflow: auto;
     padding: 15px;
     display: flex;
+    z-index: 5;
 }
 
 .visually-hidden {
